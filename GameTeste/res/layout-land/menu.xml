@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="100dp"
+    android:paddingLeft="173dp"
+    android:background="@drawable/bg_start"
+    >
+    
+    <ImageButton
+    android:id="@+id/inicio"
+    android:layout_width="125dp"
+    android:layout_height="32dp"
+    android:layout_marginLeft="38dp"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical"  
+    android:onClick="startGame"
+    android:background="@drawable/start"  />
+
+</RelativeLayout>
